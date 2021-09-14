@@ -20,19 +20,18 @@
     src: url(../fonts/Lato-Thin.ttf);
 }
 
-h1, p, a {
+h1 h2, h3, p, a {
     font-family:lato-light;
 }
 
 /* Landing Image Container */
 
 #landing-image-container {
-    height: 80vh;
     align-items: center;
 }
 
 #landing-section {
-    background: url('../images/landing-image.jpg') no-repeat center center fixed;
+    background: url('../images/landing-image.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,6 +57,23 @@ h1, p, a {
     font-family: lato-regular;
     font-size: 15px;
     margin-top: 40px;
+}
+
+#intro-text-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#intro-text1 {
+    font-size: 25px;
+    padding-bottom: 30px;
+    font-family: lato-thin;
+}
+
+#intro-text2 {
+    font-family: lato-thin;
+    font-size: 20px;
+    padding-bottom: 30px;
 }
 
 
