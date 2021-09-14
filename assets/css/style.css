@@ -49,6 +49,15 @@ h1, p, a {
 
 #company-subheading {
     color: #fff;
+    font-size: 20px;
+}
+
+#contact-cta {
+    border-radius: 20px !important;
+    padding: 5px 50px 5px 50px;
+    font-family: lato-regular;
+    font-size: 15px;
+    margin-top: 40px;
 }
 
 
