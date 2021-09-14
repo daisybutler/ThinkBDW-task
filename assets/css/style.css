@@ -28,14 +28,28 @@ h1, p, a {
 
 #landing-image-container {
     height: 80vh;
+    align-items: center;
 }
 
-#landing-image {
+#landing-section {
     background: url('../images/landing-image.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
+
+#company-heading {
+    font-size: 60px;
+    color: #fff;
+}
+
+#company-subheading {
+    color: #fff;
+}
+
+
 
