@@ -20,9 +20,15 @@
     src: url(../fonts/Lato-Thin.ttf);
 }
 
-h1 h2, h3, p, a {
-    font-family:lato-light;
+@font-face {
+    font-family: museo-sans;
+    src: url(../fonts/MuseoSans_700.otf);
+    font-weight: 700;
 }
+
+ p {
+    font-family:lato-light;
+} 
 
 html, body {
     max-width: 100%;
@@ -34,8 +40,9 @@ html, body {
 /* Nav */
 
 .navbar {
-    height: 50px;
-    background-color: #797977;
+    height: 70px;
+    background-color: #474747;
+    font-family: lato-light;
 
 }
 
@@ -51,6 +58,12 @@ html, body {
 .fa-envelope {
     font-size: 20px;
     color: #fff;
+}
+
+#new-header {
+    font-family: museo-sans;
+    font-weight: 700;
+
 }
 
 /* Landing Image Container */
@@ -69,6 +82,7 @@ html, body {
     text-align: center;
     padding-top: 150px;
     padding-bottom: 150px;
+    font-family: lato-thin;
 }
 
 #company-heading {
@@ -87,6 +101,7 @@ html, body {
     font-family: lato-regular;
     font-size: 15px;
     margin-top: 40px;
+    letter-spacing: 3px;
 }
 
 /* Text Area */
@@ -126,6 +141,7 @@ html, body {
 
 #item1 {
     color: #F7931F;
+    font-family: museo-sans;
 }
 
 #circle2 {
@@ -134,6 +150,7 @@ html, body {
 
 #item2 {
     color: #3AB54A;
+    font-family: museo-sans;
 }
 
 #circle3 {
@@ -142,6 +159,7 @@ html, body {
 
 #item3 {
     color: #672D91;
+    font-family: museo-sans;
 }
 
 .circle img {
@@ -203,6 +221,10 @@ html, body {
     padding-bottom: 20px;
 }
 
+#location-text h4 {
+    letter-spacing: 3px;
+}
+
 /* Stats */
 
 #stats-container {
@@ -217,6 +239,10 @@ html, body {
     background-color: #BEAFCB;
 }
 
+.stats-container h4 {
+    letter-spacing: 3px;
+}
+
 .stat-circle p {
     font-size: 40px;
     position: absolute;
@@ -224,6 +250,8 @@ html, body {
     left: 50%;
     transform: translate(-50%,-50%);
     color: #672D91;
+
+    font-family: lato-thin;
 }
 
 .stat-circle span {
@@ -252,6 +280,13 @@ html, body {
 
 #company-name-footer {
     text-align: left;
+    color: #474747;
+    font-family: lato-light;
+}
+
+#new-footer {
+    font-family: museo-sans;
+    font-weight: 700;
 }
 
 #google-partner {
@@ -264,6 +299,7 @@ html, body {
     float: right;
     display: block;
     padding-top: 10px;
+    font-size: 10px;
 }
 
 /* Media Queries */
