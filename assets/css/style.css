@@ -157,7 +157,29 @@ html, body {
     font-size: 15px;
     color: #797977;
     border-color: #797977;
+}
 
+/* Location */
+
+#location-container {
+    text-align: center;
+    background: url('../images/map.png') no-repeat center center;
+    height: 70vh;
+    zoom: 80%;
+}
+
+#location-text {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    #location-text {
+        padding-bottom: 10px;
+    }
 }
 
 
