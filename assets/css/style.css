@@ -26,14 +26,31 @@ h1 h2, h3, p, a {
 
 html, body {
     max-width: 100%;
+    margin: 0;
     overflow-x: hidden;
     color: #797977;
 }
 
 /* Nav */
 
+.navbar {
+    height: 50px;
+    background-color: #797977;
+
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
 #nav-email {
     text-decoration: none;
+    color: #fff;
+}
+
+.fa-envelope {
+    font-size: 20px;
+    color: #fff;
 }
 
 /* Landing Image Container */
@@ -74,8 +91,9 @@ html, body {
 /* Text Area */
 
 #intro-text-container {
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
+    background-color: #fff;
 }
 
 #intro-text1 {
@@ -221,9 +239,10 @@ html, body {
 /* Footer */
 
 #footer {
-    height: 120px;
-    margin: 20px 10px 20px 10px;
+    height: 140px;
+    padding: 20px 10px 20px 10px;
     text-align: center;
+    background-color: #F3F3F3;
 }
 
 #company-name-footer {
@@ -249,7 +268,7 @@ html, body {
         padding-bottom: 10px;
     }
     #footer {
-        height: 150px;
+        height: 170px;
     }
     #company-name-footer {
         display: inline-block;
