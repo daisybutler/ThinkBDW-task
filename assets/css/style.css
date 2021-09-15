@@ -27,6 +27,7 @@ h1 h2, h3, p, a {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    color: #797977;
 }
 
 /* Landing Image Container */
@@ -123,6 +124,40 @@ html, body {
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/* Form */
+
+#form-instructions {
+    text-align: center;
+}
+
+#contact-form input, textarea {
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    font-family: lato-light;
+}
+
+#form-instructions p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#form-container {
+    background-color: #F3F3F3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact-submit {
+    border-radius: 20px !important;
+    padding: 5px 50px 5px 50px;
+    font-family: lato-regular;
+    font-size: 15px;
+    color: #797977;
+    border-color: #797977;
+
 }
 
 
