@@ -174,6 +174,44 @@ html, body {
     padding-bottom: 20px;
 }
 
+/* Stats */
+
+#stats-container {
+    text-align: center;
+    background-color: #7C6099;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.stat-circle {
+    background-color: #BEAFCB;
+}
+
+.stat-circle p {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #672D91;
+}
+
+.stat-circle span {
+    display: block;
+    font-size: 60px;
+    line-height: 40px;
+    padding-top: 20px;
+}
+
+#find-out-more-btn {
+    border-radius: 20px !important;
+    padding: 5px 50px 5px 50px;
+    font-family: lato-regular;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
@@ -181,6 +219,8 @@ html, body {
         padding-bottom: 10px;
     }
 }
+
+
 
 
 
