@@ -61,6 +61,7 @@ html, body {
 
 #landing-section {
     background: url('../images/landing-image.jpg') no-repeat center center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -188,6 +189,10 @@ html, body {
 #location-container {
     text-align: center;
     background: url('../images/map.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     height: 70vh;
     zoom: 80%;
 }
