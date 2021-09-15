@@ -91,27 +91,43 @@ html, body {
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 #circle1 {
     background-color: #FDD9B1;
 }
 
+#item1 {
+    color: #F7931F;
+}
+
 #circle2 {
     background-color: #D1EDBD;
+}
+
+#item2 {
+    color: #3AB54A;
 }
 
 #circle3 {
     background-color: #CAB7D8;
 }
 
+#item3 {
+    color: #672D91;
+}
+
 .circle img {
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
+
+
+
+
 
 
 
