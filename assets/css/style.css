@@ -30,6 +30,12 @@ html, body {
     color: #797977;
 }
 
+/* Nav */
+
+#nav-email {
+    text-decoration: none;
+}
+
 /* Landing Image Container */
 
 #landing-image-container {
@@ -121,7 +127,7 @@ html, body {
 
 .circle img {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -212,11 +218,49 @@ html, body {
     margin-top: 40px;
 }
 
+/* Footer */
+
+#footer {
+    height: 120px;
+    margin: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+#company-name-footer {
+    text-align: left;
+}
+
+#google-partner {
+    box-shadow: 1px 1px 3px #797977;
+    display: block;
+    float: right;
+}
+
+#copyright {
+    float: right;
+    display: block;
+    padding-top: 10px;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 576px) {
     #location-text {
         padding-bottom: 10px;
+    }
+    #footer {
+        height: 150px;
+    }
+    #company-name-footer {
+        display: inline-block;
+        text-align: center;
+    }
+    #google-partner {
+        float: none;
+        display: inline-block;
+    }
+    #copyright {
+        float: none;
     }
 }
 
